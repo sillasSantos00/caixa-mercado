@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 //switch: Ideal para comparar uma variável com múltiplos valores
 
-
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,7 +17,7 @@ public class Main {
         System.out.println("1 - dinheiro");
         System.out.println("2 - cartao de credito");
         System.out.println("3 - Pix");
-        System.out.println("4 - xerecard");
+        System.out.println("4 - debito");
         //selecionar uma das opcoes acima
         int opcaoPagamento = scanner.nextInt();
 
@@ -53,7 +50,7 @@ public class Main {
                 break;
             case 4:
                 valorFinal = valorTOTAL * 2.5;
-                System.out.println("pagamento por xerecard. nao a desconto");
+                System.out.println("pagamento por debito nao a desconto");
                 break;
             default:
                 System.out.println("Opcao de pagamento invalidado.");
