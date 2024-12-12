@@ -53,7 +53,7 @@ public class Main {
                 System.out.println("pagamento por debito nao a desconto");
                 break;
             default:
-                System.out.println("Opcao de pagamento invalidado.");
+                System.out.println("Opcao de s pagamento invalidado.");
                 scanner.close();
                 return; // sai do programa se a opcao for invalida
         }
