@@ -17,7 +17,11 @@ public class Main {
         System.out.println("1 - dinheiro");
         System.out.println("2 - cartao de credito");
         System.out.println("3 - Pix");
+<<<<<<< HEAD
         System.out.println("4 - debito");
+=======
+        System.out.println("4 - CARTAO DE DEBITO");
+>>>>>>> d223664b62033f4431b394c3b2f98491ac6235b3
         //selecionar uma das opcoes acima
         int opcaoPagamento = scanner.nextInt();
 
@@ -50,7 +54,6 @@ public class Main {
                 break;
             case 4:
                 valorFinal = valorTOTAL * 2.5;
-                System.out.println("pagamento por debito nao a desconto");
                 break;
             default:
                 System.out.println("Opcao de s pagamento invalidado.");
